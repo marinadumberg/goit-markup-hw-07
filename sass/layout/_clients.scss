@@ -7,11 +7,10 @@
   border: 1px solid #afb1b8;
   border-radius: 4px;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.clients-link:hover,
-.clients-link:focus {
-  border-color: #2196f3;
+  &:hover,
+  &:focus {
+    border-color: #2196f3;
+  }
 }
 
 .clients-list {
@@ -23,9 +22,8 @@
 .clients-link-icon {
   fill: #afb1b8;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.clients-link:hover .clients-link-icon,
-.clients-link:focus .clients-link-icon {
-  fill: #2196f3;
+  .clients-link:hover &,
+  .clients-link:focus & {
+    fill: #2196f3;
+  }
 }

@@ -13,10 +13,9 @@
 
 .dignity-list li {
   max-width: 270px;
-}
-
-.dignity-list :not(:last-child) {
-  margin-right: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .dignity-title {
