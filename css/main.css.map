@@ -16,7 +16,8 @@
         "../sass/layout/_clients.scss",
         "../sass/layout/_footer.scss",
         "../sass/layout/_portfolio.scss",
-        "../sass/components/_backdrop.scss"
+        "../sass/components/_backdrop.scss",
+        "../sass/utils/_variables.scss"
     ],
     "names": [],
     "file": "main.css"

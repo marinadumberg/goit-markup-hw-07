@@ -150,7 +150,7 @@
 }
 
 .gallery-list-name {
-  font-family: "Roboto", sans-serif;
+  font-family: $main-font;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -160,7 +160,7 @@
 }
 
 .gallery-list-description {
-  font-family: "Roboto", sans-serif;
+  font-family: $main-font;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;

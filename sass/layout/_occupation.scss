@@ -1,7 +1,7 @@
 .occupation-title,
 .team-title,
 .clients-title {
-  font-family: "Roboto", sans-serif;
+  font-family: $main-font;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -28,7 +28,7 @@
   left: 0;
   margin: 0;
   padding: 27px 82px;
-  font-family: "Roboto", sans-serif;
+  font-family: $main-font;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.17;

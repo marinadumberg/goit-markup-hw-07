@@ -24,7 +24,7 @@
   margin-right: 83px;
 }
 .logo-studio {
-  font-family: "Raleway", sans-serif;
+  font-family: $secondary-font;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -33,12 +33,12 @@
 }
 
 .logo-header {
-  font-family: "Raleway", sans-serif;
+  font-family: $secondary-font;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: $accent-color;
 }
 .menu-list-item:not(:last-child) {
   margin-right: 50px;
@@ -52,7 +52,7 @@
 
 .menu-list-link {
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: $main-font;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -62,13 +62,13 @@
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
   &:focus {
-    color: #2196f3;
+    color: $accent-color;
   }
 }
 
 .address-mail-link,
 .address-tel-link {
-  font-family: "Roboto", sans-serif;
+  font-family: $main-font;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;

@@ -3,7 +3,7 @@
 }
 
 .team-member-name {
-  font-family: "Roboto", sans-serif;
+  font-family: $main-font;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -14,7 +14,7 @@
 }
 
 .team-member-position {
-  font-family: "Roboto", sans-serif;
+  font-family: $main-font;
   font-style: 400;
   font-size: 16px;
   line-height: 1.18;
